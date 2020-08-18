@@ -15,5 +15,5 @@ jobs:
       uses: katalon-studio/katalon-studio-github-action@v2
       with:
           version: '7.6.2'
-          projectPath: 'C:\Users\Karim\Katalon Studio\REWARDBEE\REWARDBEE.prj'
-          args: '-noSplash -retry=0 -testSuiteCollectionPath="Test Suites/JoinNowPage" -apiKey = 0bfbbc76-c42c-4c11-88e7-e253f327e0bc --config -webui.autoUpdateDrivers=true'
+          projectPath: 'C:\Users\karim\Katalon Studio\MyFirstProject\MyFirstProject.prj' 
+          args: 'noSplash -retry=0 -testSuiteCollectionPath="Test Suites/LoginDemo" -apiKey = "787edaee-9d8f-418b-8cef-62aad84e4692" --config -webui.autoUpdateDrivers=true'
