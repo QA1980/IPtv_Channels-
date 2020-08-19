@@ -15,5 +15,5 @@ jobs:
       uses: katalon-studio/katalon-studio-github-action@v2
       with:
           version: '7.6.2'
-          projectPath: 'C:\Users\karim\Katalon Studio\MyFirstProject\MyFirstProject.prj' 
-          args: 'noSplash -retry=0 -testSuiteCollectionPath="Test Suites/LoginDemo" -apiKey = "787edaee-9d8f-418b-8cef-62aad84e4692" --config -webui.autoUpdateDrivers=true'
+          projectPath: 'C:\Users\karim\Katalon Studio\My First Web UI Project\My First Web UI Project.prj' 
+          args: 'noSplash -retry=0 -testSuiteCollectionPath="Test Suites/New Test Suite Collection" -apiKey = "5ba2f3e8-6780-441d-b20c-b438b8a1a14e" --config -webui.autoUpdateDrivers=true'
